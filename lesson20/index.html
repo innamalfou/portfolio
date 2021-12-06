@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<body>
+<title>Example</title>
+<style>
+body {
+  display: grid;
+  grid-template-areas:
+    "header nav article "
+    "header nav  ads"
+    "header footer footer";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 60% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+@media (max-width: 575px) {
+  body {
+    grid-template-areas:
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;
+    grid-template-columns: 1fr;
+ }
+}
+header{
+  padding: 1.2em;
+  background: rgb(7, 37, 10);
+  }
+
+ footer {
+  padding: 1.2em;
+  background: rgb(8, 182, 8);
+  } 
+ article {
+  padding: 1.2em;
+  background: rgb(82, 255, 91);
+  }
+ nav{
+  padding: 1.1em;
+  background: rgb(8, 110, 15);
+  }
+ div {
+  padding: 1.2em;
+  background: rgb(86, 255, 7);
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle {
+  grid-area: article;
+  }
+#mainNav {
+  grid-area: nav;
+  }
+#siteAds {
+  grid-area: ads;
+  }
+
+</style>
+<body>
+  <header id="pageHeader">Header Blaaa</header>
+  <article id="mainArticle">Article</article>
+  <nav id="mainNav">Nav</nav>
+  <div id="siteAds">Ads</div>
+  <footer id="pageFooter">Footer</footer>
+</body>
+</html>

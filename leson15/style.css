@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+      min-block-size: 100%;
+      font-size: 100%;
+  }
+  
+  body {
+      margin: 0;
+      block-size: 100%;
+      font-family: system-ui, sans-serif;
+      line-height: 1;
+  }
+  
+  header {
+      color: rgb(158, 117, 255);
+      background-color: rgb(161, 23, 23);
+      border: 12px solid rgb(23, 153, 18);
+  }
+
+.conteiner{
+    margin: 0;
+    padding: 0.3em 2em;
+    font-size: 1.5rem;
+    background-color: rgb(143, 180, 22);
+}
+  main {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+}
+
+main h1 {
+    margin-top: 0;
+}
+
+.cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    gap: 1em;
+}
+
+.card {
+    border: 5px solid rgb(40, 235, 14);
+}
+
+.card h2 {
+    margin: 0;
+    padding: 0.55em 2em;
+    font-size: 1.5rem;
+    color: rgb(143, 180, 22);
+    background-color: rgb(150, 41, 41);
+}
+.sidebar {
+    margin: 0;
+    padding: 0.55em 2em;
+    font-size: 1.5rem;
+    color:rgb(150, 41, 41);
+    background-color: rgb(143, 180, 22);
+}
+
+@media screen and (min-width: 80rem) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,28 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+
+body
+{
+    background-color: rgb(27, 226, 93);
+}
+* {
+    color: antiquewhite;
+    text-align: center ;
+    font-size: x-large ;
+    font-family: 'Libre Franklin', sans-serif;
+}
+a {
+    text-decoration: none;
+    font-style: normal ;
+}
+img
+{
+    background-color: aqua;
+    border-radius: 25%;
+}
+
+ul {
+    list-style-type: square ;
+}

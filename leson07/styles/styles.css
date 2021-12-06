@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+}
+h1{
+    color: blanchedalmond;
+}
+.header {
+    width: 100%;
+    background-color: black;
+}
+.header-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-left{
+    background: rgb(243, 227, 4) ;
+    width: 300px;
+    height: 600px;
+}
+
+.main-inner{
+    display: flex;
+flex-direction: row;
+}
+
+li:hover{
+    color: rgb(202, 30, 30);
+}
+h2{
+    color: blanchedalmond;
+}
+.footer{
+    width: 100%;
+    background: black;
+}
+.footer-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

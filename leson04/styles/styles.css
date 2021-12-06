@@ -1,0 +1,24 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+
+body
+{
+    background-color:rgb(223, 65, 17);
+    background-color: linear-gradient(90deg,)
+    rgba(156, 238, 183)1%,
+    rgba(245, 115, 115)35%,
+    rgba(223, 223, 17)100%;
+    color: rgb(161, 156, 238);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat',sans-serif; 
+}
+h2:haber{
+    color: antiquewhite;
+}
+table {
+    border: 0.2em solid rgb(200, 197, 236);
+}
