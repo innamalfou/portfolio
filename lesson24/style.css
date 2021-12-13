@@ -1,6 +1,6 @@
 .conteiner {
     width: 100%;
-    max-width: 1430px;
+    max-width: 1450px;
 }
 .header-inner {
     width: 100%;  
@@ -22,7 +22,7 @@
     font-size: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 21px;
     text-align: center;
     color: rgb(9, 143, 16); ;
 }
@@ -44,7 +44,21 @@
 }
 .header-social{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     text-align: center;
-    width: 26%;
+    width: 12%;
+}
+.netvork{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    width: 65%;
+
+}
+.netvork >net{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    width: 24%;
+
 }
