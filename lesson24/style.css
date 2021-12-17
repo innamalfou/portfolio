@@ -59,6 +59,12 @@
     display: flex;
     flex-direction:row;
     text-align: center;
-    width: 24%;
+    width: 30%;
 
+}
+.golovas{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 10px;
 }
