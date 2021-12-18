@@ -27,7 +27,7 @@
     font-size: 23px;
     line-height: 21px;
     text-align: center;
-    color: rgb(9, 143, 16);
+    color: black;
 
 }
 .header-cash{
@@ -43,7 +43,7 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    color: chartreuse;
+    color: rgb(135, 211, 60);
     margin-right: 10px;
 }
 .header-social{
@@ -71,6 +71,22 @@
     position: absolute;
     left: 100px;
     top: 279px;
+    font-style: normal;
+    border: #ffff 1px solid;
+    color: #ffff;
+}
+.hjn {
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    font-style: normal;
+    border: #ffff 1px solid;
+    color: #ffff;
+}
+.hjn > h3{
+    position: absolute;
+    left: 150px;
+    top: 500px;
     font-style: normal;
     border: #ffff 1px solid;
     color: #ffff;
