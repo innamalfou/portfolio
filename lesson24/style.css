@@ -7,31 +7,35 @@
 }
 .header-top {
     display: flex;
+    width: 100%;
 }
 .header-logo {
-    width: 170px;
+    display: flex;
+    width: 234px;
+    height:50px
 }
 .header-lang{
     display: flex;
     flex-direction: column;
     text-align: center;  
-    border-left: 1px solid black;
-    height: 100%;
+    border-left: 2px solid black;
+    height: 2%;
 }
 .lang {
     font-size: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 21px;
     text-align: center;
-    color: rgb(9, 143, 16); ;
+    color: rgb(9, 143, 16);
+
 }
 .header-cash{
     display: flex;
     flex-direction: column;
     text-align: center; 
     border-left: 1px solid black;
-    height: 100%
+    height: 20px
 }
 .money{
     font-size: normal;
@@ -40,7 +44,7 @@
     line-height: 25px;
     text-align: center;
     color: chartreuse;
-    margin-right: 130px;
+    margin-right: 10px;
 }
 .header-social{
     display: flex;
@@ -52,19 +56,22 @@
     display: flex;
     flex-direction:column;
     text-align: center;
-    width: 65%;
-
+    width: 45%;
 }
-.netvork >net{
-    display: flex;
-    flex-direction:row;
-    text-align: center;
-    width: 30%;
-
+.net{
+    width: 25%;
 }
 .golovas{
     display: flex;
     flex-direction: row;
-    margin: 50px;
-    padding: 10px;
+    margin: 45px;
+    padding: 1px;
+}
+.intter{
+    position: absolute;
+    left: 100px;
+    top: 279px;
+    font-style: normal;
+    border: #ffff 1px solid;
+    color: #ffff;
 }
