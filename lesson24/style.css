@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 1450px;
 }
+
 .header-inner {
     width: 100%;  
 }
@@ -69,25 +70,64 @@
 }
 .intter{
     position: absolute;
-    left: 100px;
-    top: 279px;
+    left: 5px;
+    top: 260px;
     font-style: normal;
     border: #ffff 1px solid;
     color: #ffff;
 }
 .hjn {
     position: absolute;
-    left: 100px;
-    top: 350px;
+    left: 390px;
+    top: 480px;
     font-style: normal;
     border: #ffff 1px solid;
     color: #ffff;
 }
-.hjn > h3{
+.hjn > h2{
     position: absolute;
-    left: 150px;
-    top: 500px;
+    left: 250px;
+    top: 100px;
+    font-style: normal;
+    color: #ffff;
+}
+.intrro{
+    position: absolute;
+    left: 220px;
+    top: 100px;
     font-style: normal;
     border: #ffff 1px solid;
     color: #ffff;
+}
+.intrro > img{
+    position: absolute;
+    left: -212px;
+    top: 650px;
+    font-style: normal;
+    border: #ffff 0,5px solid;
+    color: #ffff;
+}
+.intrro >h4 {
+    position: absolute;
+    left: -211px;
+    top: 635px;
+    font-style: normal;
+    border: rgb(0, 0, 0) 0,5px solid;
+    color: rgb(0, 0, 0);
+}
+.intrro > img{
+    position: absolute;
+    left: -210px;
+    top: 650px;
+    font-style: normal;
+    border: rgb(0, 0, 0) 0,5px solid;
+    color: rgb(0, 0, 0);
+}
+.lushie_oteli{
+    position: absolute;
+    left: 0px;
+    top: 980px;
+    font-style: normal;
+    border: rgb(0, 0, 0) 0,5px solid;
+    color: rgb(0, 0, 0);
 }
