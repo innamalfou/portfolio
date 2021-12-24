@@ -15,12 +15,13 @@
     width: 234px;
     height:50px
 }
-.header-lang{
+.header-lang, .header-cash{
     display: flex;
     flex-direction: column;
     text-align: center;  
     border-left: 2px solid black;
     height: 2%;
+    height: 20px
 }
 .lang {
     font-size: normal;
@@ -30,13 +31,6 @@
     text-align: center;
     color: black;
 
-}
-.header-cash{
-    display: flex;
-    flex-direction: column;
-    text-align: center; 
-    border-left: 1px solid black;
-    height: 20px
 }
 .money{
     font-size: normal;
@@ -123,11 +117,43 @@
     border: rgb(0, 0, 0) 0,5px solid;
     color: rgb(0, 0, 0);
 }
-.lushie_oteli{
+.lushie_oteli, .lushie_oteli> h4{
     position: absolute;
-    left: 0px;
+    left: 50px;
     top: 980px;
     font-style: normal;
     border: rgb(0, 0, 0) 0,5px solid;
     color: rgb(0, 0, 0);
+}
+.aktyalnie_tyru{
+    position: absolute;
+    left: 50px;
+    top: 1488px;
+    font-style: normal;
+    border: rgb(0, 0, 0) 0,5px solid;
+    color: rgb(0, 0, 0);
+}
+.aktyalnie_tyru> h6{
+    position: absolute;
+    left: 50px;
+    top: 485px;
+    font-style: normal;
+    border: rgb(0, 0, 0) 0,5px solid;
+    color: rgb(0, 0, 0);
+}
+.hto_takoe_pytehestvie {
+    position: absolute;
+    left: 200px;
+    top: 585px;
+    font-style: normal;
+    border: rgb(0, 0, 0) 0,5px solid;
+    color: rgb(0, 0, 0);
+}
+.nif {
+    position: absolute;
+    left: 390px;
+    top: 700px;
+    font-style: normal;
+    border: #ffff 1px solid;
+    color: #ffff;
 }
