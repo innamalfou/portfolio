@@ -86,3 +86,26 @@ function begin4() {
     let c = Number(prompt('imput number'))
     alert(`Perimetrt = ${2*(a*b+b*c+a*c)}`)
 }
+function begin5() {
+    let a = Number(prompt('imput number'))
+    let b = Number(prompt('imput number'))
+    alert(`Perimetrt = ${(a+b)/2}`)
+}
+function begin6() {
+    let x = Number(prompt('imput number'))
+    alert(`y = ${3*x**6-6*x**2-7}`)
+}
+function begin7() {
+    let x = Number(prompt('imput number'))
+    alert(`y = ${4*(x-3)**6-7*(x-3)**3+2}`)
+}
+function begin8() {
+    let A = Number(prompt('imput number'))
+    let Y = Number(prompt('imput number'))
+    alert(`Weight = ${A+(A*Y)}`)
+}
+function integer1() {
+    let L = Number(prompt('imput number'))
+    alert(`sm = ${L%100}`)
+}
+
