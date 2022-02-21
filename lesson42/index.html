@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title> 
+</head> 
+<body> 
+    <label for="text"></label> 
+    <input type="text" id="text" name="text"> 
+    <div class="btn" id="btn-create">Create</div> 
+    <select name="select"> <!--Supplement an id here instead of using 'name'-->
+        <option value="робота">робота</option>
+        <option value="дом" selected>дом</option>
+        <option value="отдых">отдых</option>
+      </select>
+    <div class="toDo"> 
+        <h1>ToDo</h1> 
+        <ol class="toDo--list"> 
+            <!-- <li class="toDo--item"> 
+                <div class="item--text"></div> 
+                <div class="item--tag"></div> 
+                <div class="item--date"></div> 
+                <div class="btn" onclick="moveToRestore(this)">Delete</div> 
+            </li> --> 
+        </ol> 
+    </div> 
+    <div class="restore"> 
+        <h1>Restore</h1> 
+        <ol class="restore--list"> 
+ 
+        </ol> 
+    </div> 
+    <script src="./index.js"></script> 
+</body> 
+</html>

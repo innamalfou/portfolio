@@ -1,0 +1,16 @@
+.btn{
+    background: blueviolet;
+    width: 50px;
+    border: 1,5px solid #26c526;
+    border-radius: 10px;
+}
+.toDo{
+    background: rgb(114, 255, 114);
+    width: 600px;
+    
+}
+.restore{
+    background: rgb(34, 228, 34);
+    width:600px;
+    
+}
